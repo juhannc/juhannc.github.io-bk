@@ -1,0 +1,15 @@
+---
+title: "Design and Adaptive Depth Control of a Micro Diving Agent"
+collection: publications
+permalink: /publication/2017-06-09-Design-and-Adaptive-Depth-Control-of-a-Micro-Diving-Agent
+excerpt: 'This letter presents the depth control of an autonomous micro diving agent called autonomous diving agent (ADA). ADA consists of off-the-shelf components and features open-source hardware and firmware. It can be deployed as a testbed for depth controllers, as well as a mobile sensor platform for research or in industrial tanks. We introduce a control law that is based on the feedback linearization method and enhanced by an adaptive fuzzy algorithm to cope with modeling inaccuracies. The proposed depth controller is computationally light enough to run on ADAs embedded hardware. In experiments performed in a wave tank, the adaptive fuzzy scheme shows the ability to deal with both depth regulation and depth profile tracking. ADA is even able to hold on to dynamic isobars despite external disturbances. We demonstrate that under the influence of waves, ADA describes orbital motions similar to water particles.'
+date: 2017-06-09
+venue: 'IEEE Robotics and Automation Letters (RA-L)'
+paperurl: 'http://doi.org/10.1109/LRA.2017.2714142'
+citation: 'W. M. Bessa, E. Kreuzer, J. Lange, M. Pick and E. Solowjow, &quot;Design and Adaptive Depth Control of a Micro Diving Agent&quot;, in <i>IEEE Robotics and Automation Letters</i>, vol. 2, no. 4, pp. 1871-1877, Oct. 2017, doi: 10.1109/LRA.2017.2714142.'
+---
+This letter presents the depth control of an autonomous micro diving agent called autonomous diving agent (ADA). ADA consists of off-the-shelf components and features open-source hardware and firmware. It can be deployed as a testbed for depth controllers, as well as a mobile sensor platform for research or in industrial tanks. We introduce a control law that is based on the feedback linearization method and enhanced by an adaptive fuzzy algorithm to cope with modeling inaccuracies. The proposed depth controller is computationally light enough to run on ADAs embedded hardware. In experiments performed in a wave tank, the adaptive fuzzy scheme shows the ability to deal with both depth regulation and depth profile tracking. ADA is even able to hold on to dynamic isobars despite external disturbances. We demonstrate that under the influence of waves, ADA describes orbital motions similar to water particles.
+
+[Download paper here](https://www.jmlan.ge/files/10.1109_LRA.2017.2714142.pdf)
+
+Recommended citation: W. M. Bessa, E. Kreuzer, J. Lange, M. Pick and E. Solowjow, "Design and Adaptive Depth Control of a Micro Diving Agent", in <i>IEEE Robotics and Automation Letters</i>, vol. 2, no. 4, pp. 1871-1877, Oct. 2017, doi: 10.1109/LRA.2017.2714142.
