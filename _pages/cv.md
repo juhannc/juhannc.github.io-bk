@@ -13,9 +13,24 @@ redirect_from:
 
 Education
 ======
-* M.Sc. in Aircraft Systems Engineering, Hamburg University of Technology, 2019
-* Visiting Research Scholar, University of California, Berkeley, 2018 - 2019
-* B.Sc. in Mechanical Engineering, Hamburg University of Technology, 2016
+
+* 10/16 - 09/19
+  * Aircraft Systems Engineering, M.Sc.
+  * Hamburg University of Technology
+  * Hamburg, Germany
+  * Pursuing a Master's degree in Aircraft Systems Engineering focusing on Aircraft Systems, and moreover specializing on Control Systems, Robotics and Machine Learning.
+
+* 11/18 - 04/19
+  * Visiting Research Scholar
+  * University of California, Berkeley
+  * Berkeley (CA), United States
+  * Researcher in the Hybrid Robotics Lab of Asst. Prof. Koushil Sreenath. Working on autonomous flight control of aerial quadrotors. Focusing on developing and implementing novice obstacle avoidance technology for enhancent path planning}
+
+* 10/12 - 09/16
+  * Mechanical Engineering, B.Sc.
+  * Hamburg University of Technology
+  * Hamburg, Germany
+  * Pursuing a Bachelor's degree in Mechanical Engineering focusing on Aircraft Systems Engineering.
 
 Work experience
 ======

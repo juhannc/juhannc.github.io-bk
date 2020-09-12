@@ -84,7 +84,7 @@ author:
   avatar           : "Bewerbungsfoto_1MB_2MP.jpg"
   bio              : "Contact information"
   location         : "Hamburg, Germany"
-  employer         : "ZAL Center of Applied Aeronautical Research"
+  employer         : "ZAL GmbH"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
   email            : "johann.lange@zal.aero"
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/JohannLange"
+  github           : "JohannLange"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/johannlange/"
+  linkedin         : "johannlange"
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -112,7 +112,7 @@ author:
   twitter          : # "replacethistwitterhandle"
   vine             :
   weibo            :
-  xing             : "https://www.xing.com/profile/Johann_Lange4/cv"
+  xing             : "Johann_Lange4"
   youtube          :
   wikipedia        :
 
@@ -200,7 +200,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: false
+      share: true
       related: true
   # _pages
   - scope:
@@ -216,7 +216,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: false
+      share: true
       comments: true
   # _publications
   - scope:
@@ -234,7 +234,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: false
+      share: true
       comment: true
   # _talks
   - scope:
@@ -243,7 +243,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: false
+      share: true
 
 # Sass/SCSS
 sass:
