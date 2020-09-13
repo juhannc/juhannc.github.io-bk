@@ -24,7 +24,7 @@ Education
   * Visiting Research Scholar
   * University of California, Berkeley
   * Berkeley (CA), United States
-  * Researcher in the Hybrid Robotics Lab of Asst. Prof. Koushil Sreenath. Working on autonomous flight control of aerial quadrotors. Focusing on developing and implementing novice obstacle avoidance technology for enhancent path planning}
+  * Researcher in the Hybrid Robotics Lab of Asst. Prof. Koushil Sreenath. Working on autonomous flight control of aerial quadrotors. Focusing on developing and implementing novice obstacle avoidance technology for enhancent path planning.
 
 * 10/12 - 09/16
   * Mechanical Engineering, B.Sc.
@@ -48,10 +48,10 @@ Work experience
   * Primarily worked as Project Management support for R&D projects concerning new developments within the cabin focusing on Galleys. Especially managing a project which aimed to develop a replacement for the state-of-the-art honeycomb panels. Thus, operated as the focal point for the management, subcontractors, and different divisions across Airbus all working on the project. Therefore, bore the responsibility for multiple deliverables within different projects. Lastly, finished the project by passing TRL 6, hence, allowing Entry-into-Service.
 
 * 09/16 - 01/18
-  * Teamleader}
+  * Teamleader
   * HAMBURG - a REXUS/BEXUS project (funded by the German Aerospace Center and European Space Agency)
   * Hamburg, Germany; Bremen, Germany; Kiruna, Sweden
-  * Led a student experiment for a REXUS/BEXUS project, a German-Swedish student programme in cooperation with DLR and ESA. Been responsible for the entire project, but mostly focused on hard- and software development. Moreover, built the experiment and performed different functional and performance tests afterward. Finally, led and managed a trip to Kiruna, Sweden, on which the experiment was again fully tested and mounted to a balloon, reaching an altitude of 25 000 m
+  * Led a student experiment for a REXUS/BEXUS project, a German-Swedish student programme in cooperation with DLR and ESA. Been responsible for the entire project, but mostly focused on hard- and software development. Moreover, built the experiment and performed different functional and performance tests afterward. Finally, led and managed a trip to Kiruna, Sweden, on which the experiment was again fully tested and mounted to a balloon, reaching an altitude of 25 000 m.
 
 * 01/16 - 04/16
   * Bachelor's Thesis: Development and Control of a Dive Cell
