@@ -9,18 +9,16 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+{% include base_path %}
+
 ## Conferences
 
-{% include base_path %}
-
-## Theses
-
-{% include base_path %}
-
-## Test
-
-{% for post in site.publications reversed %}
+{% for post in site.publications.conferences reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
-## TEst2
+## Theses
+
+{% for post in site.publications.these reversed %}
+  {% include archive-single.html %}
+{% endfor %}
