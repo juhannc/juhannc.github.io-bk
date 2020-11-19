@@ -11,11 +11,11 @@ author_profile: true
 
 ## Conferences
 
-{% include base_path/conferences %}
+{% include base_path %}
 
 ## Theses
 
-{% include base_path/theses %}
+{% include base_path %}
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
