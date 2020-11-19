@@ -13,12 +13,12 @@ author_profile: true
 
 ## Conferences
 
-{% for post in site.publications.conferences reversed %}
+{% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
 ## Theses
 
-{% for post in site.publications.these reversed %}
+{% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
