@@ -20,5 +20,7 @@ author_profile: true
 ## Theses
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.collection contains "theses" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
