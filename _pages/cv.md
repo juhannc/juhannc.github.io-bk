@@ -11,8 +11,7 @@ redirect_from:
 
 [Download my CV as a pdf](https://www.jmlan.ge/files/CV.pdf)
 
-Education
-======
+## Education
 
 * 10/16 - 09/19
   * Aircraft Systems Engineering, M.Sc.
@@ -32,8 +31,7 @@ Education
   * Hamburg, Germany
   * Pursuing a Bachelor's degree in Mechanical Engineering focusing on Aircraft Systems Engineering.
 
-Work experience
-======
+## Work experience
 
 * 10/19 - today
   * Systems Engineer for automation and robotics
@@ -59,8 +57,7 @@ Work experience
   * Hamburg, Germany
   * Designed as well as built an autonomous diving cell as a proof of concept of isobaric stabilization. The diving cell is built around an actuator which was used to change the volume and therefore the buoyancy. Furthermore, for the control laws, investigated different options and finally settled on a PID-controller as a simple solution and a Sliding-Mode-controller as a more advanced solution for comparison.
 
-Skills
-======
+## Skills
 
 * Languages
   * German (native)
@@ -87,8 +84,7 @@ Skills
   * CI/CD
   * GitLab
 
-Publications
-======
+## Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
