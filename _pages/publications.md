@@ -17,21 +17,21 @@ author_profile: true
 
 ## Journal Articles
 {% for post in site.publications reversed %}
-  {% if post.collection == 'journal' %}
+  {% if post.pubtype == 'journal' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 ## Conference Papers
 {% for post in site.publications reversed %}
-  {% if post.collection == 'conference' %}
+  {% if post.pubtype == 'conference' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 ## Academic
 {% for post in site.publications reversed %}
-  {% if post.collection == 'academic' %}
+  {% if post.pubtype == 'academic' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
