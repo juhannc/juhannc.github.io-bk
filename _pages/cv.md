@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download my CV as a pdf](https://www.jmlan.ge/files/CV.pdf)
+[Download my CV as a pdf](https://www.chrstnsn.de/files/CV.pdf)
 
 ## Education
 
