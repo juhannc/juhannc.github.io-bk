@@ -150,6 +150,7 @@ exclude:
 - tmp
 - vendor
 - _pages/_archive
+- markdown_generator
 keep_files:
 - .git
 - .svn
@@ -182,7 +183,7 @@ collections:
   # teaching:
   #   output: false
   #   permalink: /:collection/:path/
-  publications:
+  Publications:
     output: true
     permalink: /:collection/:path/
   # portfolio:
@@ -191,7 +192,7 @@ collections:
   # talks:
   #   output: false
   #   permalink: /:collection/:path/
-  thesis:
+  Thesis:
     output: true
     permalink: /:collection/:path/
 
@@ -199,16 +200,16 @@ collections:
 # Defaults
 defaults:
   # _posts
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: single
-    author_profile: true
-    read_time: true
-    comments: true
-    share: true
-    related: true
+# - scope:
+#     path: ''
+#     type: posts
+#   values:
+#     layout: single
+#     author_profile: true
+#     read_time: true
+#     comments: true
+#     share: true
+#     related: true
   # _pages
 - scope:
     path: ''
@@ -217,14 +218,14 @@ defaults:
     layout: single
     author_profile: true
   # _teaching
-- scope:
-    path: ''
-    type: teaching
-  values:
-    layout: single
-    author_profile: true
-    share: true
-    comments: true
+# - scope:
+#     path: ''
+#     type: teaching
+#   values:
+#     layout: single
+#     author_profile: true
+#     share: true
+#     comments: true
   # _publications
 - scope:
     path: ''
