@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------------
 // Padding Mixins
 
-// add empty colums as padding before an element.
+// add empty columns as padding before an element.
 // $columns : The number of columns to prefix.
 // $context : [optional] The context (columns spanned by parent).
 //          : Context is required on any nested elements.
@@ -18,7 +18,7 @@
   padding-#{$from}: space($columns, $context, $style);
 }
 
-// add empty colums as padding after an element.
+// add empty columns as padding after an element.
 // $columns : The number of columns to suffix.
 // $context : [optional] The context (columns spanned by parent).
 //          : Context is required on any nested elements.
@@ -36,7 +36,7 @@
   padding-#{$to}: space($columns, $context, $style);
 }
 
-// add empty colums as padding before and after an element.
+// add empty columns as padding before and after an element.
 // $columns : The number of columns to pad.
 // $context : [optional] The context (columns spanned by parent).
 //          : Context is required on any nested elements.
@@ -59,7 +59,7 @@
   }
 }
 
-// Bleed into colums with margin/padding on any side of an element.
+// Bleed into columns with margin/padding on any side of an element.
 // $width   : The side of the bleed.
 //          : Any unit-length will be used directly.
 //          : Any unitless number will be used as a column-count.

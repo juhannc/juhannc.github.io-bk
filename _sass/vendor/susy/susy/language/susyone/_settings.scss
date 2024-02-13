@@ -20,7 +20,7 @@ $grid-padding       : $gutter-width   !default;
 $from-direction     : left            !default;
 
 // Omega Float Direction:
-// The direction that +omega elements are floated by deafult.
+// The direction that +omega elements are floated by default.
 $omega-float        : opposite-position($from-direction)    !default;
 
 // Container Width:
@@ -49,7 +49,7 @@ $pixel-values-only  : false           !default;
 // ---------------------------------------------------------------------------
 // IE Settings
 
-// When you are using a seperate IE stylesheet,
+// When you are using a separate IE stylesheet,
 // you can use these settings to control the output of at-breakpoint.
 // By default, at-breakpoint will output media-queries as well as
 // any defined ie-fallback classes.

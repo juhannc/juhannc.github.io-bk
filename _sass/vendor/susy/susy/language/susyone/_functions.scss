@@ -163,7 +163,7 @@ $rem-with-px-fallback               : true !default;
 // Accept a list including column-count and (optional) position.
 // Return either the column count or the position alone.
 //
-//  $columns  : the list to split and interprate.
+//  $columns  : the list to split and interpret.
 //  $request  : The value to return, either 'columns' or 'position'.
 @function split-columns-value(
   $columns,
@@ -349,7 +349,7 @@ $rem-with-px-fallback               : true !default;
   @if comparable($min, $column-width) {
     $return : ceil(($min + $gutter-width) / ($column-width + $gutter-width));
   } @else {
-    @warn "Can't determine a layout, becuse #{$min} and #{$column-width} are not comparable.";
+    @warn "Can't determine a layout, because #{$min} and #{$column-width} are not comparable.";
   }
 
   @return $return;

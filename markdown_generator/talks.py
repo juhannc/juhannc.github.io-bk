@@ -1,4 +1,3 @@
-
 # coding: utf-8
 
 # # Talks markdown generator for academicpages
@@ -9,9 +8,9 @@
 
 # In[1]:
 
-import pandas as pd
 import os
 
+import pandas as pd
 
 # ## Data format
 #
@@ -39,38 +38,34 @@ talks
 
 # ## Escape special characters
 #
-# YAML is very picky about how it takes a valid string, so we are replacing single and double quotes (and ampersands) with their HTML encoded equivilents. This makes them look not so readable in raw format, but they are parsed and rendered nicely.
+# YAML is very picky about how it takes a valid string, so we are replacing single and double quotes (and ampersands) with their HTML encoded equivalents. This makes them look not so readable in raw format, but they are parsed and rendered nicely.
 
 # In[4]:
 
-html_escape_table = {
-    "&": "&amp;",
-    '"': "&quot;",
-    "'": "&apos;"
-    }
+html_escape_table = {"&": "&amp;", '"': "&quot;", "'": "&apos;"}
+
 
 def html_escape(text):
-    if type(text) is str:
-        return "".join(html_escape_table.get(c,c) for c in text)
+    if isinstance(text, str):
+        return "".join(html_escape_table.get(c, c) for c in text)
     else:
         return "False"
 
 
 # ## Creating the markdown files
 #
-# This is where the heavy lifting is done. This loops through all the rows in the TSV dataframe, then starts to concatentate a big string (```md```) that contains the markdown for each type. It does the YAML metadata first, then does the description for the individual page.
+# This is where the heavy lifting is done. This loops through all the rows in the TSV dataframe, then starts to concatenate a big string (```md```) that contains the markdown for each type. It does the YAML metadata first, then does the description for the individual page.
 
 # In[5]:
 
 loc_dict = {}
 
 for row, item in talks.iterrows():
-
     md_filename = str(item.date) + "-" + item.url_slug + ".md"
     html_filename = str(item.date) + "-" + item.url_slug
     year = item.date[:4]
 
-    md = "---\ntitle: \""   + item.title + '"\n'
+    md = '---\ntitle: "' + item.title + '"\n'
     md += "collection: talks" + "\n"
 
     if len(str(item.type)) > 3:
@@ -91,19 +86,16 @@ for row, item in talks.iterrows():
 
     md += "---\n"
 
-
     if len(str(item.talk_url)) > 3:
         md += "\n[More information here](" + item.talk_url + ")\n"
-
 
     if len(str(item.description)) > 3:
         md += "\n" + html_escape(item.description) + "\n"
 
-
     md_filename = os.path.basename(md_filename)
-    #print(md)
+    # print(md)
 
-    with open("../_talks/" + md_filename, 'w') as f:
+    with open("../_talks/" + md_filename, "w") as f:
         f.write(md)
 
 
