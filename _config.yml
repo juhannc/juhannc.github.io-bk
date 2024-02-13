@@ -84,11 +84,11 @@ author:
   avatar           : "Johann_Christensen.jpg"
   bio              : "Contact information"
   location         : "Hamburg, Germany"
-  employer         : "ZAL GmbH (zal.aero)"
+  employer         : "DLR Institute for AI Safety and Security (https://www.dlr.de/en/ki)"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : # "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.de/citations?user=dVgRS6kAAAAJ"
   email            : "johannchristensen@outlook.de"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Johann-Christensen"
   uri              :
   bitbucket        :
   codepen          :

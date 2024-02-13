@@ -11,33 +11,19 @@ redirect_from:
 
 [Download my CV as a pdf](https://www.chrstnsn.de/files/CV.pdf)
 
-## Education
-
-* 10/16 - 09/19
-  * Aircraft Systems Engineering, M.Sc.
-  * Hamburg University of Technology
-  * Hamburg, Germany
-  * Pursuing a Master's degree in Aircraft Systems Engineering focusing on Aircraft Systems, and moreover specializing on Control Systems, Robotics and Machine Learning.
-
-* 11/18 - 04/19
-  * Visiting Research Scholar
-  * University of California, Berkeley
-  * Berkeley (CA), United States
-  * Researcher in the Hybrid Robotics Lab of Asst. Prof. Koushil Sreenath. Working on autonomous flight control of aerial quadrotors. Focusing on developing and implementing novice obstacle avoidance technology for enhancent path planning.
-
-* 10/12 - 09/16
-  * Mechanical Engineering, B.Sc.
-  * Hamburg University of Technology
-  * Hamburg, Germany
-  * Pursuing a Bachelor's degree in Mechanical Engineering focusing on Aircraft Systems Engineering.
-
 ## Work experience
 
-* 10/19 - today
-  * Systems Engineer for automation and robotics
+* 10/23 - today
+  * Research Associate
+  * DLR Institute for AI Safety and Security
+  * Sankt Augustin, Germany (remote)
+  * Researching and developing novel safe and resilient AI systems for the aviation domain. Pursuing my Ph. D. (Dr.-Ing.) in the field of artificial intelligence.
+
+* 10/19 - 08/23
+  * Developing Engineer for Artificial Intelligence and robotics
   * ZAL Center of Applied Aeronautical Research
   * Hamburg, Germany
-  * Working on research and development for research projects as well as contract research and support of industrial customers. Focus on (simulated) robotic systems in hard- and software. Managing work packages of governmental funded research projects and representing them at conferences. Furthermore administrator of the in-house robotic simulation server as well as the GitLab server.
+  * Bringing AI into the industry. Working on research and development for research projects as well as contract research and support of industrial customers. Focusing on reinforcement learning and (simulated) robotic systems in hard- and software. Managing governmental funded research projects and representing them at conferences. Building an internal workflow to speed up the training of machine learning algorithms and streamline the deployment of trained models to the edge. Also responsible for writing proposals for government funded projects. Moreover, responsible for managing the in-house robotics simulation server and local GitLab instance.
 
 * 12/16 - 06/18
   * Working Student
@@ -56,6 +42,32 @@ redirect_from:
   * Institute of Mechanics and Ocean Engineering (M-13, MuM), Hamburg University of Technology
   * Hamburg, Germany
   * Designed as well as built an autonomous diving cell as a proof of concept of isobaric stabilization. The diving cell is built around an actuator which was used to change the volume and therefore the buoyancy. Furthermore, for the control laws, investigated different options and finally settled on a PID-controller as a simple solution and a Sliding-Mode-controller as a more advanced solution for comparison.
+
+## Education
+
+* 02/21 - 08/23
+  * External Ph. D. (Dr.-Ing.) candidate
+  * Hamburg University of Technology
+  * Hamburg, Germany
+  * Research in the field of reinforcement learning for mechatronic systems. Focusing on the development of novel reinforcement learning algorithms for linear-parameter varying systems to approximate real mechatronic systems to speed up training.
+
+* 10/16 - 09/19
+  * Aircraft Systems Engineering, M.Sc.
+  * Hamburg University of Technology
+  * Hamburg, Germany
+  * Pursuing a Master's degree in Aircraft Systems Engineering focusing on Aircraft Systems, and moreover specializing on Control Systems, Robotics and Machine Learning.
+
+* 11/18 - 04/19
+  * Visiting Research Scholar
+  * University of California, Berkeley
+  * Berkeley (CA), United States
+  * Researcher in the Hybrid Robotics Lab of Asst. Prof. Koushil Sreenath. Working on autonomous flight control of aerial quadrotors. Focusing on developing and implementing novice obstacle avoidance technology for enhanced path planning.
+
+* 10/12 - 09/16
+  * Mechanical Engineering, B.Sc.
+  * Hamburg University of Technology
+  * Hamburg, Germany
+  * Pursuing a Bachelor's degree in Mechanical Engineering focusing on Aircraft Systems Engineering.
 
 ## Skills
 
@@ -85,6 +97,7 @@ redirect_from:
   * GitLab
 
 ## Publications
+
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
