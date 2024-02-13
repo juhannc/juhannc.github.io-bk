@@ -23,13 +23,13 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       {% if author.job %}
-        <li><i class="fa fa-black-tie" aria-hidden="true"></i> {{ author.job }}</li>
+        <li><i class="fa fa-fw fa-black-tie" aria-hidden="true"></i> {{ author.job }}</li>
       {% endif %}
       {% if author.employer %}
         {% if author.employer_url %}
           <li><a href="{{ author.employer_url }}"><i class="fa fa-building" aria-hidden="true"></i> {{ author.employer }}</a></li>
         {% else %}
-          <li><i class="fa fa-building" aria-hidden="true"></i> {{ author.employer }}</li>
+          <li><i class="fa fa-fw fa-building" aria-hidden="true"></i> {{ author.employer }}</li>
         {% endif %}
       {% endif %}
       {% if author.location %}
