@@ -183,7 +183,7 @@ collections:
   # teaching:
   #   output: false
   #   permalink: /:collection/:path/
-  Publications:
+  publications:
     output: true
     permalink: /:collection/:path/
   # portfolio:
@@ -192,7 +192,7 @@ collections:
   # talks:
   #   output: false
   #   permalink: /:collection/:path/
-  Thesis:
+  thesis:
     output: true
     permalink: /:collection/:path/
 
@@ -229,7 +229,7 @@ defaults:
   # _publications
 - scope:
     path: ''
-    type: Publications
+    type: publications
   values:
     layout: single
     author_profile: true
@@ -238,7 +238,7 @@ defaults:
   # _thesis
 - scope:
     path: ''
-    type: Thesis
+    type: thesis
   values:
     layout: single
     author_profile: true
