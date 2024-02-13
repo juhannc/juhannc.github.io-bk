@@ -81,10 +81,12 @@ analytics:
 # Site Author
 author:
   name: Johann Christensen, née Lange
+  job: Research Associate
   avatar: Johann_Christensen.jpg
   bio: Contact information
   location: Hamburg, Germany
   employer: DLR e.V.
+  employer_url: https://www.dlr.de/ki
   pubmed: # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar: https://scholar.google.de/citations?user=dVgRS6kAAAAJ
   email: johannchristensen@outlook.de
