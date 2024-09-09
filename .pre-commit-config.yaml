@@ -38,7 +38,7 @@ repos:
   - id: absolufy-imports
     name: Make python imports absolute
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.6.3
+  rev: v0.6.4
   hooks:
   - id: ruff
     name: Linting Python code (ruff)
