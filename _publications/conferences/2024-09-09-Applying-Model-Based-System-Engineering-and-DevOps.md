@@ -13,7 +13,7 @@ To investigate AI-Engineering methodologies and the potential harmonization of b
 In this work, the AI-based ACAS X<sub>A</sub> and ACAS X<sub>U</sub> are implemented into a simulation environment and tested in scenarios avoiding multiple intruders.
 One horizontal and one vertical multi-collision avoidance scenario is executed demonstrating the implementation of the system-under-test as well as the successful collision avoidance.
 Throughout the engineering process from defining requirements down to the sub-system level, Model-Based System Engineering (MBSE) is used as an efficient way of handling the ever-increasing complexity of the engineering process and improving communication and understanding for all involved stakeholders.'
-date: 2024-10-28
+date: 2024-09-09
 venue: '34th Congress of the International Council of the Aeronautical Sciences'
 # paperurl: 'http://doi.org/10.1109/LRA.2017.2714142'
 citation: 'Stefani, T., <b>Christensen, J. M.</b>, Hoemann, E., Anilkumar Girija, A., K&ouml;ster, F., Kr&uuml;ger, T. and Hallerbach, S. &quot;Applying Model-Based System Engineering and DevOps on the Implementation of an AI-based Collision Avoidance System&quot;, in <i>34th Congress of the International Council of the Aeronautical Sciences</i>, Sep. 2024.'
