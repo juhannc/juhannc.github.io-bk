@@ -83,10 +83,8 @@ author:
   name: Johann Christensen, né Lange
   job: Research Associate
   avatar: Johann_Christensen.jpg
-  bio: |
-    he/him
-
-    Research associate at the Institute for AI Safety and Security at the German Aerospace Center (DLR)
+  pronouns: he/him
+  bio: Research associate at the Institute for AI Safety and Security at the German Aerospace Center (DLR)
   location: Hamburg, Germany
   employer: DLR e.V.
   employer_url: https://www.dlr.de/ki
