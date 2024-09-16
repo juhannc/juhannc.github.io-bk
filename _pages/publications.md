@@ -15,12 +15,13 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-<!-- ## Journal Articles
+## Journal Articles
+
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'journal' %}
       {% include archive-single.html %}
   {% endif %}
-{% endfor %} -->
+{% endfor %}
 
 ## Conference Papers
 
