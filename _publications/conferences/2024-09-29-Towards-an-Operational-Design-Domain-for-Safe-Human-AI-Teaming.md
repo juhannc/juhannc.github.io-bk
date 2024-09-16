@@ -2,7 +2,7 @@
 title: "Towards an Operational Design Domain for Safe Human-AI Teaming in the Field of AI-Based Air Traffic Controller Operations"
 collection: publications
 pubtype: conference
-permalink: /publication/conferences/2024-09-29-Towards-an-Operational-Design-Domain-for-Safe-Human-AI-Teaming.md
+permalink: /publication/conferences/2024-09-29-Towards-an-Operational-Design-Domain-for-Safe-Human-AI-Teaming
 excerpt: 'Advances in Artificial Intelligence (AI) introduce both promising real-world applications in various fields such as aviation but also challenges in assuring safety.
 Regulators in aviation mandate, as with any other application, compliance of these AI-based systems with high safety standards.
 This especially holds for Human-AI Teaming.
